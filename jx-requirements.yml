@@ -15,12 +15,13 @@ spec:
     gitServer: https://github.com
     provider: kubernetes
     registry: ghcr.io
+    domain: jx.ficld.ir
   environments:
   - key: dev
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "jx.ficld.ir"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
